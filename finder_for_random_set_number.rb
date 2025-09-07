@@ -14,7 +14,7 @@ def find_number(random_number=RNDM_NO)
       these_numbers = [integer_1, integer_2]
       sum[:calculated] = these_numbers[0] + these_numbers[1]
       if (sum[:calculated] == random_number) then print_calculations(these_numbers) else false end
-      sleep 1.2 # number as float, 1-decimal of ms-miliseconds
+      sleep 1.2 # number as float, 1-decimal, of seconds
     end
   end
 end
