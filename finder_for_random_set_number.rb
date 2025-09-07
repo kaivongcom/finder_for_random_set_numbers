@@ -1,5 +1,3 @@
-# random number searcher pushed onto screen depending on addition loops
-
 RNDM_NO = '13'
 NUMBER_SET_AT = 21
 LN_BREAK = "\n"
@@ -21,4 +19,3 @@ def find_number(random_number=RNDM_NO)
   end
 end
 
-find_number()
