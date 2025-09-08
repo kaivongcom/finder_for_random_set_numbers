@@ -14,7 +14,7 @@ def find_number(random_number=RNDM_NO)
       these_numbers = {'one': integer_1, 'two':  integer_2}
 			sum[:calculated] = these_numbers.sum { |key, value| value }
       if (sum[:calculated] == random_number) then print_calculations(these_numbers) else false end
-      sleep 1.2 # number as float, 1-decimal, of seconds
+      sleep 1.2 
     end
   end
 end
