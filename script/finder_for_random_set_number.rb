@@ -7,9 +7,9 @@ def print_calculations(numbers)
   print "%s + %s" %[numbers[:one], numbers[:two]]
 end
 
-def find_number(random_number=RNDM_NO)
-  NUMBER_SET_AT.times do |integer_1|
-      NUMBER_SET_AT.times do |integer_2|
+def find_number(random_number=RNDM_NO, seeker_number=NUMBER_SET_AT)
+  seeker_number.times do |integer_1|
+      seeker_number.times do |integer_2|
       set_hash = {'one': integer_1, 'two':  integer_2}
 			set_hash[:calculated] = set_hash.sum { |k, v| v }
       if (set_hash[:calculated] == random_number) then print_calculations(set_hash) else false end
