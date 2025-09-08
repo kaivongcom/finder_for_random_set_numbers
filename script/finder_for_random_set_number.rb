@@ -1,4 +1,4 @@
-RNDM_NO = 13
+RNDM_NO = '13'
 NUMBER_SET_AT = 21
 LN_BREAK = "\n"
 
@@ -9,14 +9,11 @@ end
 
 def find_number(random_number=RNDM_NO)
   NUMBER_SET_AT.times do |integer_1|
-    sum = {}
       NUMBER_SET_AT.times do |integer_2|
-      these_numbers = {'one': integer_1, 'two':  integer_2}
-			sum[:calculated] = these_numbers.sum { |k, v| v }
-      if (sum[:calculated] == random_number) then print_calculations(these_numbers) else false end
+      set_hash = {'one': integer_1, 'two':  integer_2}
+			set_hash[:calculated] = set_hash.sum { |k, v| v }
+      if (set_hash[:calculated] == random_number) then print_calculations(set_hash) else false end
       sleep 1.2 
     end
   end
 end
-
-find_number()
