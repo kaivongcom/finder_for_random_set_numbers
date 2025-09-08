@@ -3,8 +3,8 @@ NUMBER_SET_AT = 21
 LN_BREAK = "\n"
 
 def print_calculations(numbers)
+  print (LN_BREAK * 2) + "ok!"  + (LN_BREAK)
   print "%s + %s" %[numbers[:one], numbers[:two]]
-  print LN_BREAK + "ok!"  + LN_BREAK
 end
 
 def find_number(random_number=RNDM_NO)
