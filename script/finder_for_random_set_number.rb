@@ -12,7 +12,7 @@ def find_number(random_number=RNDM_NO)
     sum = {}
       NUMBER_SET_AT.times do |integer_2|
       these_numbers = {'one': integer_1, 'two':  integer_2}
-			sum[:calculated] = these_numbers.sum { |key, value| value }
+			sum[:calculated] = these_numbers.sum { |k, v| v }
       if (sum[:calculated] == random_number) then print_calculations(these_numbers) else false end
       sleep 1.2 
     end
