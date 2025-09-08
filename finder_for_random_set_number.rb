@@ -18,4 +18,3 @@ def find_number(random_number=RNDM_NO)
     end
   end
 end
-
