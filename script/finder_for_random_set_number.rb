@@ -4,10 +4,10 @@ LN_BREAK = "\n"
 
 def those_calculations(numbers)
   if numbers[:calculated] == numbers[:number]
-	  print (LN_BREAK * 2) + "ok!"  + (LN_BREAK)
-	  print "%s + %s" %[numbers[:one], numbers[:two]]
+    print (LN_BREAK * 2) + "ok!"  + (LN_BREAK)
+    print "%s + %s" %[numbers[:one], numbers[:two]]
   else
-	  false 
+    false 
   end
   sleep 1.2
 end
