@@ -22,3 +22,4 @@ def find_number(random_number=RNDM_NO, seeker_number=NUMBER_SET_AT)
     end
   end
 end
+ 
