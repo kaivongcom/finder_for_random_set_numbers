@@ -1,10 +1,10 @@
 RNDM_NO = $ENV['random_number']
 NUMBER_SET_AT = $ENV['number_set_to']
-LN_BREAK = "\n"
+NEWLINE = "\n"
 
 def those_calculations(numbers)
   if numbers[:calculated] == numbers[:number]
-    print (LN_BREAK * 2) + "ok!"  + (LN_BREAK)
+    print (NEWLINE * 2) + "ok!"  + (NEWLINE)
     print "%s + %s" %[numbers[:sum_rdy][0], numbers[:sum_rdy][1]]
   else
     false 
