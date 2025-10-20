@@ -1,5 +1,5 @@
-RNDM_NO = '13'
-NUMBER_SET_AT = 21
+RNDM_NO = $ENV['random_number']
+NUMBER_SET_AT = $ENV['number_set_to']
 LN_BREAK = "\n"
 
 def those_calculations(numbers)
